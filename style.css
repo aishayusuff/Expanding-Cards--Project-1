@@ -66,6 +66,9 @@ span {
         width: 100vw;
 
     }
+    .panel {
+        height: 70vh;
+    }
    .container .panel:nth-of-type(6),
    .container .panel:nth-of-type(7), 
    .container .panel:nth-of-type(8),

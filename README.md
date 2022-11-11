@@ -4,7 +4,7 @@
  
  # What I Gained from this Project
  I refreshed my HTML skills and learnt some new CSS tips (for instance, the use of :nth-of-type() to hide some of the cards in the medai query section)
- I also got to refresh my Jacascript skills using forEach(), functions, addEventListner()
+ I also got to refresh my Javascript skills using forEach(), functions, addEventListner()
  
  # Areas I Need to Work on More
- I have more to learn in CSS (for example, the intricacies of 'trainstion') and Javascript(how to problem solve more when given tasks)
+ I have more to learn in CSS (for example, the intricacies of 'transition') and Javascript(how to problem solve more when given tasks)

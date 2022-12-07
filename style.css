@@ -34,7 +34,6 @@ span {
 .container {
     display: flex;
     width: 90vw;
-    /* align-items: center; */
 }
 
 .panel {
@@ -47,7 +46,6 @@ span {
     color: white;
     flex: 0.2;
     margin: 15px;
-    /* padding: 20px; */
     position: relative;
     transition: flex 0.9s ease-in-out;
 }
@@ -64,17 +62,20 @@ span {
 @media(max-width: 560px ) {
     .container {
         width: 100vw;
-
     }
+  
     .panel {
         height: 70vh;
     }
+    .container .panel:nth-of-type(5),
    .container .panel:nth-of-type(6),
    .container .panel:nth-of-type(7), 
-   .container .panel:nth-of-type(8),
-   .container .panel:nth-of-type(9), 
-   .container .panel:nth-of-type(10) {
+   .container .panel:nth-of-type(8) {
         display: none;
+    }
+
+    .panel.panel.active {
+        flex: 0.5px;
     }
 
     footer {
